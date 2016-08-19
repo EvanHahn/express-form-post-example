@@ -1,0 +1,17 @@
+<% include header %>
+
+<h1>Express form post example</h1>
+
+<form method="post" action="/handle-submit">
+  <div class="form-group">
+    <label for="username-input">Username</label>
+    <input type="text" name="username" class="form-control" id="username-input" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label for="password-input">Password</label>
+    <input type="password" name="password" class="form-control" id="password-input" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+<% include footer %>
